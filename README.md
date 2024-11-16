@@ -53,7 +53,7 @@ pip install -e .
 
 ## Getting Started
 
-Kronfluence supports influence computations on [`nn.Linear`](https://pytorch.org/docs/stable/generated/torch.nn.Linear.html) and [`nn.Conv2d`](https://pytorch.org/docs/stable/generated/torch.nn.Conv2d.html) modules. 
+Kronfluence supports influence computations on modules such as [`nn.Linear`](https://pytorch.org/docs/stable/generated/torch.nn.Linear.html) and [`nn.Conv2d`](https://pytorch.org/docs/stable/generated/torch.nn.Conv2d.html), but also support more advanced cases such as [llama-3-8B Transformer](https://github.com/pomonam/kronfluence/tree/main/examples/openwebtext). 
 See the [**Technical Documentation**](https://github.com/pomonam/kronfluence/blob/main/DOCUMENTATION.md) page for a comprehensive guide.
 
 **TL;DR** You need to prepare a trained model and datasets, and pass them into the `Analyzer` class.
